@@ -1,0 +1,73 @@
+/* components/About.css */
+
+/* Ensure the whole container is styled properly */
+.about-container {
+  text-align: center;
+  background-color: #080C0C;
+  color: #EDF2F4;
+  padding: 5em;
+}
+
+/* Title styling */
+.about-container .about-title {
+  font-family: var(--font-raleway); /* Use CSS variable */
+  color: #EDF2F4;
+  font-weight: bold;
+  font-size: 4.0em;
+  margin-bottom: 1.5em;
+}
+
+/* Text paragraph styling */
+.about-container .about-text {
+  font-size: 1.5em;
+  font-family: var(--font-montserrat); /* Use CSS variable */
+  margin: 0 auto; /* Center the text */
+}
+
+/* TL;DR container styling */
+.about-container .tldr-container {
+  padding: 1.5em;
+  border-radius: 0.5em;
+  width: 100%;
+  margin-top: 3em;
+  background-color: transparent;
+}
+
+/* TL;DR title styling */
+.about-container .tldr-title {
+  font-size: 2.1875em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: #EDF2F4;
+  font-weight: 800;
+}
+
+/* TL;DR section styling */
+.about-container .tldr-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* TL;DR item styling */
+.about-container .tldr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+/* TL;DR icon styling */
+.about-container .tldr-item .tldr-icon {
+  width: 6.125em;
+  height: 6.125em;
+  object-fit: contain;
+}
+
+/* TL;DR subtitle styling */
+.about-container .tldr-item .subtitle {
+  font-size: 1.4em;
+  font-family: var(--font-montserrat); /* Use CSS variable */
+  font-weight: 200;
+}

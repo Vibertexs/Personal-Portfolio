@@ -1,0 +1,58 @@
+/* NavbarComponent.css */
+
+.navbar-custom {
+    background-color: #080C0C;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: fixed; /* Ensures the navbar stays fixed at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-font {
+    font-family: var(--font-montserrat); /* Use Montserrat font */
+    font-weight: 200; /* Set font weight to 200 */
+    color: #EDF2F4 !important; /* Set font color and ensure it takes priority */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.navbar-font:hover {
+    color: #c1c7c9 !important; /* Slightly lighter color on hover */
+}
+
+.navbar-font:focus,
+.navbar-font:active {
+    color: #EDF2F4 !important; /* Maintain the color after click */
+    outline: none; /* Remove any focus outline */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23EDF2F4' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Ensure the navbar stays on top when scrolling */
+body {
+    padding-top: 56px; /* Adjust based on navbar height to avoid content overlap */
+}
+
+/* Styling for the CONNECT link */
+.navbar-custom .nav-link.connect-link {
+    border: 2px solid #EDF2F4 !important; /* Border color matching the font color */
+    border-radius: 5px; /* Rounded corners for the border */
+    padding: 0.5em 1em; /* Add padding around the text */
+    margin-left: 0.5em; /* Space between the border and other links */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effects */
+    text-align: center; /* Center text within the link */
+    color: #EDF2F4 !important; /* Ensure text color is correct */
+}
+
+/* Hover state for CONNECT link */
+.navbar-custom .nav-link.connect-link:hover,
+.navbar-custom .nav-link.connect-link:focus,
+.navbar-custom .nav-link.connect-link:active {
+    background-color: #EDF2F4 !important; /* Background color on hover */
+    color: #080C0C !important; /* Change text color on hover */
+    border-color: #080C0C !important; /* Border color on hover */
+    outline: none; /* Ensure no focus outline */
+}

@@ -1,0 +1,47 @@
+/* styles/Projects.css */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #080C0C; /* Set background color to black */
+  padding-bottom: 4em; /* Padding at the bottom of the container */
+}
+
+.projects-title {
+  font-size: 4em; /* Adjust font size as needed */
+  margin-bottom: 1em; /* Space below the title */
+  margin-top: 1em; /* Space above the title */
+  color: white; /* Title color set to white */
+}
+
+.components-holder {
+  background-color: red; /* Background color for components holder */
+  margin-bottom: 1em; /* Space below the components holder */
+  /* margin: 0em 8em 0em 8em; Uncomment if needed for spacing */
+}
+
+.raleway {
+  font-family: var(--font-raleway); /* Font family */
+}
+
+.bottom-text {
+  font-family: var(--font-montserrat); /* Font family */
+  font-weight: 200;
+  font-size: 1.5em; /* Font size for the bottom text */
+  color: white; /* Text color set to white */
+}
+
+/* Styling for the GitHub link */
+.github-link {
+  color: white; /* Text color for the link */
+  text-decoration: none; /* Remove underline from the link */
+  display: inline-block; /* Ensure the link behaves like a block for margins */
+  margin-top: 1em; /* Space above the link */
+}
+
+.github-link:hover {
+  text-decoration: underline; /* Underline the link on hover */
+  color: #ccc; /* Slightly lighter color on hover (optional) */
+}

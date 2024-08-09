@@ -1,0 +1,73 @@
+/* styles/Skills.css */
+
+.container-fluid {
+  background-color: #EDF2F4; /* Light background color for the entire container */
+}
+
+
+.top-div {
+  background-color: #EDF2F4;
+  height: 12em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #080C0C; /* Font color for text in top-div */
+}
+
+.left-div, .right-div {
+  background-color: #EDF2F4; /* Background color for divs */
+  height: 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em; /* Add padding */
+  color: #080C0C; /* Font color for text in left-div and right-div */
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 5em;
+}
+
+.left-div {
+  border-right: 0.05em solid #00000080; /* Darker border color */
+  flex-direction: column; /* Add this for column layout */
+}
+
+.right-div {
+  border-left: 0.05em solid #00000080; /* Darker border color */
+}
+
+.title{
+  margin-bottom: 5em;
+}
+
+.skill-icon {
+  width: 5em;
+  margin-bottom: 0.5em;
+}
+
+.skill-item {
+  margin-bottom: 1em; /* Reduced margin for better spacing */
+}
+
+.raleway {
+  font-family: var(--font-raleway);
+  color: #080C0C; /* Ensure text color for elements using Raleway */
+}
+
+.montserrat {
+  font-family: var(--font-montserrat);
+  color: #080C0C; /* Ensure text color for elements using Montserrat */
+  font-weight: 300;
+}
+
+.bold-weight {
+  font-weight: 900; /* Adjust weight if needed */
+}
+
+.top-div h2 {
+  font-size: 4em; /* Increase font size for top-level header */
+}
+
+.left-div h3, .right-div h3 {
+  font-size: 1.1em; /* Increase font size for sub-level headers */
+}
