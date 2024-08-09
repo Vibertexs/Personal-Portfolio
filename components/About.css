@@ -5,23 +5,25 @@
   text-align: center;
   background-color: #080C0C;
   color: #EDF2F4;
-  padding: 5em;
+  padding: 2em;
 }
 
 /* Title styling */
 .about-container .about-title {
-  font-family: var(--font-raleway); /* Use CSS variable */
+  font-family: var(--font-raleway);
   color: #EDF2F4;
   font-weight: bold;
-  font-size: 4.0em;
-  margin-bottom: 1.5em;
+  font-size: 4em;
+  margin-bottom: 0.8em;
+  margin-top: 0.5em;
 }
 
 /* Text paragraph styling */
 .about-container .about-text {
   font-size: 1.5em;
-  font-family: var(--font-montserrat); /* Use CSS variable */
-  margin: 0 auto; /* Center the text */
+  font-family: var(--font-montserrat);
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 /* TL;DR container styling */
@@ -40,7 +42,6 @@
   text-align: center;
   color: #EDF2F4;
   font-weight: 800;
-  
 }
 
 /* TL;DR section styling */
@@ -69,6 +70,43 @@
 /* TL;DR subtitle styling */
 .about-container .tldr-item .subtitle {
   font-size: 1.4em;
-  font-family: var(--font-montserrat); /* Use CSS variable */
+  font-family: var(--font-montserrat);
   font-weight: 200;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+  /* Adjust title font size for smaller screens */
+  .about-container .about-title {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  /* Adjust text paragraph font size */
+  .about-container .about-text {
+    font-size: 1.2em;
+    max-width: 90%;
+  }
+
+  /* Adjust TL;DR title font size */
+  .about-container .tldr-title {
+    font-size: 1.75em;
+  }
+
+  /* Adjust TL;DR section for better spacing */
+  .about-container .tldr-section {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  /* Adjust icon size in TL;DR section */
+  .about-container .tldr-item .tldr-icon {
+    width: 5em;
+    height: 5em;
+  }
+
+  /* Adjust subtitle font size */
+  .about-container .tldr-item .subtitle {
+    font-size: 1.2em;
+  }
 }

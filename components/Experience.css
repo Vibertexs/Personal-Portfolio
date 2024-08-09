@@ -1,0 +1,130 @@
+/* styles/Experience.css */
+
+/* Existing styles */
+.container-fluid {
+  background-color: #EDF2F4; /* Light background color for the entire container */
+}
+
+.top-div {
+  margin-top: 3em;
+  background-color: #EDF2F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #080C0C; /* Font color for text in top-div */
+}
+
+.left-div, .right-div {
+  background-color: #EDF2F4; /* Background color for divs */
+  height: 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em; /* Add padding */
+  color: #080C0C; /* Font color for text in left-div and right-div */
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 5em;
+}
+
+.left-div {
+  border-right: 0.05em solid #00000080; /* Darker border color */
+  flex-direction: column; /* Add this for column layout */
+}
+
+.right-div {
+  border-left: 0.05em solid #00000080; /* Darker border color */
+}
+
+.title {
+  color: #080C0C ;
+  margin-bottom: 2em; /* Reduced margin for title */
+}
+
+.subtitle {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  text-align: left;
+}
+
+.work-item {
+  margin: 0 1em; /* Horizontal margin for spacing between items */
+  text-align: center; /* Center-align text and icons */
+  display: block; /* Make the div a block element */
+  text-decoration: none; /* Remove default link styling */
+  color: inherit; /* Inherit text color */
+  border: 1px solid transparent; /* Optional: Add border if you want a visual indicator */
+}
+
+.work-item:hover {
+  background-color: transparent; /* Remove background color on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.company-icon {
+  width: 6em; /* Adjust icon size if needed */
+  margin-bottom: 0.5em;
+}
+
+.skill-icon {
+  width: 5em;
+  margin-bottom: 0.5em;
+}
+
+.skill-item {
+  margin-bottom: 1em; /* Reduced margin for better spacing */
+}
+
+.raleway {
+  font-family: var(--font-raleway);
+  color: #080C0C; /* Ensure text color for elements using Raleway */
+}
+
+.montserrat {
+  font-family: var(--font-montserrat);
+  color: #080C0C; /* Ensure text color for elements using Montserrat */
+  font-weight: 300;
+}
+
+.bold-weight {
+  font-weight: 900; /* Adjust weight if needed */
+}
+
+.top-div h2 {
+  font-size: 4em; /* Increase font size for top-level header */
+}
+
+.subtitle {
+  font-size: 3em; /* Increase font size for subtitles */
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.left-div h3, .right-div h3 {
+  font-size: 0.8em; /* Increase font size for sub-level headers */
+  margin-bottom: 1.5em;
+}
+
+.company-row {
+  margin: 2em;
+  margin-top: 0em;
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+  .left-div, .right-div {
+    height: auto; /* Adjust height to auto for better stacking on mobile */
+    padding: 2em; /* Reduce padding for mobile */
+  }
+
+  .title, .subtitle {
+    text-align: center; /* Center align titles and subtitles on mobile */
+    font-size: 2em; /* Adjust font size for better readability on mobile */
+    margin-left: 0; /* Remove left margin for centered text */
+  }
+
+  .company-row {
+    margin: 1em;
+  }
+}

@@ -1,0 +1,56 @@
+.connect-section {
+    background-color: #080C0C; /* Black background */
+    padding: 2em 1em;
+    color: #EDF2F4; /* Light text color */
+  }
+  
+  .connect-container {
+    text-align: center;
+    width: 100%;
+    max-width: 30em;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-family: var(--font-raleway);
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    color: #EDF2F4; /* Ensure title is white */
+  }
+  
+  .contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  
+  .contact-icon {
+    width: 2em;
+    height: 2em;
+    margin-right: 0.75em;
+  }
+  
+  .contact-text {
+    font-family: var(--font-montserrat);
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #EDF2F4; /* Ensure text is white */
+    text-decoration: none;
+  }
+  
+  .contact-text:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-text {
+      font-size: 1.2em;
+    }
+  
+    .contact-row {
+      margin-bottom: 0.5em;
+    }
+  }
+  

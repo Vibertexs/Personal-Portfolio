@@ -11,7 +11,7 @@ const NavbarComponent = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           <Nav.Link href="#about" className="navbar-font">ABOUT</Nav.Link>
-          <Nav.Link href="#skills" className="navbar-font">SKILLS</Nav.Link>
+          <Nav.Link href="#experience" className="navbar-font">EXPERIENCE</Nav.Link>
           <Nav.Link href="#projects" className="navbar-font">PROJECTS</Nav.Link>
           <Nav.Link href="#resume" className="navbar-font">RESUME</Nav.Link>
           <Nav.Link href="mailto:youremail@example.com" className="navbar-font connect-link">CONNECT</Nav.Link>

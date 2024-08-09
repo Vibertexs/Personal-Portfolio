@@ -11,7 +11,7 @@ const data = {
         "height": "70vh",
         "borderThickness": "0.5em",
         "borderColor": "#080C0C",
-        "childGap" : "1.0em",
+        "childGap" : "0.0em",
     },
 
     "cards": [
@@ -36,7 +36,7 @@ const data = {
         {
             "imageURL": "/icons/project4.jpg",
             "imageText": "Forex Scalping Bot",
-            "childPageContent": <About/>
+            "childPageContent": <Card4/>
 
         },
     ]

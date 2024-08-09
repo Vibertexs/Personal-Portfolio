@@ -1,70 +1,82 @@
-.card-container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-}
-
-.card-header {
-    border-bottom: 2px solid #f0f0f0;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-}
-
-.card-header h2 {
-    font-size: 24px;
-    color: #333;
-    margin: 0;
+.card4-container {
+    background-color: #080C0C;
+    color: #EDF2F4;
+    padding: 2em;
+    border-radius: 10px;
+    font-family: var(--font-montserrat);
     text-align: center;
 }
 
-.card-content section {
-    margin-bottom: 20px;
+.card4-title {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
 }
 
-.card-content h3 {
-    font-size: 20px;
-    color: #007acc;
-    margin-bottom: 10px;
-    border-left: 4px solid #007acc;
-    padding-left: 10px;
+.card4-description {
+    font-size: 1.25em;
+    margin-bottom: 1.5em;
 }
 
-.card-content p {
-    line-height: 1.6;
-    margin: 10px 0;
+.card4-list {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-.card-content ul {
-    padding-left: 20px;
-    list-style-type: disc;
+.card4-list li {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
 }
 
-.card-content li {
-    margin-bottom: 8px;
+.card4-title-left {
+    text-align: left;
+    margin-bottom: 0.5em;
 }
 
-.card-content strong {
-    color: #333;
-}
-
-.card-content code {
-    background-color: #f9f9f9;
-    border-radius: 4px;
-    padding: 2px 6px;
-    font-size: 14px;
-    font-family: 'Courier New', monospace;
-}
-
-.card-content a {
-    color: #007acc;
+.learn-more-button {
+    background-color: #EDF2F4;
+    color: #080C0C;
+    font-family: var(--font-montserrat);
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     text-decoration: none;
+    margin-top: 1.5em;
 }
 
-.card-content a:hover {
-    text-decoration: underline;
+.learn-more-button:hover {
+    background-color: #D1D9DC;
+}
+
+.card4-results-image-container {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.card4-results-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .card4-title {
+        font-size: 1.75em;
+    }
+
+    .card4-description {
+        font-size: 1em;
+    }
+
+    .card4-list li {
+        font-size: 1em;
+    }
+
+    .card4-results-image {
+        max-width: 100%;
+    }
 }

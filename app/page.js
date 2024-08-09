@@ -15,11 +15,12 @@ import NavbarComponent from '@/components/NavbarComponent'; // Import the Navbar
 
 import Landing from "@/components/Landing";
 import About from "@/components/About";
-import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Cards from "@/components/RenderCards";
 import Config from "@/data/config";
-import Contact from "@/components/Contact";
+import Portfolio from "@/components/Portfolio";
+import Connect from '@/components/Connect';
 
 const Home = () => {
   return (
@@ -27,9 +28,10 @@ const Home = () => {
       <NavbarComponent />
       <Landing />
       <About />
-      <Skills />
+      <Experience />
       <Projects />
-      <Contact/>
+      <Portfolio/>
+      <Connect/>
     </div>
   );
 };
