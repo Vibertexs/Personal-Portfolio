@@ -40,7 +40,7 @@ const Card1 = () => {
         </div>
         <div className="card1-details">
           <div className="card1-current-state">
-            <h3 className="card1-title-left">Robot's Current State:</h3>
+            <h3 className="card1-title-left">Robot&apos;s Current State:</h3>
             <pre>
 {`|---|---|---|
 |   | 2 |   |
@@ -52,7 +52,7 @@ const Card1 = () => {
             </pre>
           </div>
           <div className="card1-genes">
-            <h3 className="card1-title-left">Robot's Genes:</h3>
+            <h3 className="card1-title-left">Robot&apos;s Genes:</h3>
             <pre>
 {`Gene 0: 0   0   0   0   N
 Gene 1: 0   0   0   1   E
@@ -65,7 +65,7 @@ Gene 4: 0   1   0   0   N`}
       </div>
       <p className="card1-description">
         <strong><br/>Simulating Artificial Intelligence:  </strong> 
-         In this project, the robot's behavior was designed to mimic aspects of artificial intelligence through an evolutionary algorithm. Initially, the robot's actions were based on random gene configurations, leading to a range of behaviors. Over time, the algorithm selected and bred robots with more effective gene configurations, simulating a learning process. This approach allowed the robots to gradually optimize their performance, adapting their strategies to efficiently collect batteries and navigate the grid. By continually evolving and optimizing their behavior, the robots demonstrated how artificial intelligence techniques can be used to create adaptive and intelligent systems.
+         In this project, the robot&apos;s behavior was designed to mimic aspects of artificial intelligence through an evolutionary algorithm. Initially, the robot&apos;s actions were based on random gene configurations, leading to a range of behaviors. Over time, the algorithm selected and bred robots with more effective gene configurations, simulating a learning process. This approach allowed the robots to gradually optimize their performance, adapting their strategies to efficiently collect batteries and navigate the grid. By continually evolving and optimizing their behavior, the robots demonstrated how artificial intelligence techniques can be used to create adaptive and intelligent systems.
       </p>
       <a href="https://github.com/Vibertexs/CPP-Projects/blob/main/FinalProject.cpp" target="_blank" rel="noopener noreferrer">
         <button className="learn-more-button popout">LEARN MORE</button>
