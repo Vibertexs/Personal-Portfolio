@@ -13,7 +13,7 @@ const Experience = () => {
       {/* New section for Places I've Worked */}
       <div className="row no-gutters">
         <div className="col-12 experiencetab">
-          <h2 className="subtitle raleway bold-weight">PLACES I'VE WORKED</h2>
+          <h2 className="subtitle raleway bold-weight">PLACES I&apos;VE WORKED</h2>
         </div>
         <div className="col-12 d-flex flex-row justify-content-around company-row">
           <a href="https://www.linkedin.com/company/neuroleap-corp/" target="_blank" rel="noopener noreferrer" className="work-item text-center popout">
@@ -32,7 +32,7 @@ const Experience = () => {
       {/* Subtitle for Technologies I've Worked With */}
       <div className="row no-gutters">
         <div className="col-12 ">
-          <h2 className="subtitle raleway bold-weight">TECHNOLOGIES I'VE WORKED WITH</h2>
+          <h2 className="subtitle raleway bold-weight">TECHNOLOGIES I&apos;VE WORKED WITH</h2>
         </div>
       </div>
 

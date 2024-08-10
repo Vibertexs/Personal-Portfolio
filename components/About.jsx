@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="about-container d-flex flex-column justify-content-center align-items-center">
       <h2 className='about-title'>ABOUT</h2>
       <p className='about-text'>
-        Hello! I'm Bilal Khan, a full-stack developer with a keen interest in creating efficient and innovative solutions. I’m currently studying at Folsom Lake College and planning to transfer next year to pursue a master’s in computer engineering. My goal is to develop programs that drive technological advancement and benefit others.<br /><br />
+        Hello! I&apos;m Bilal Khan, a full-stack developer with a keen interest in creating efficient and innovative solutions. I’m currently studying at Folsom Lake College and planning to transfer next year to pursue a master’s in computer engineering. My goal is to develop programs that drive technological advancement and benefit others.<br /><br />
         Outside of coding, I enjoy photography, fishing, and gaming. Each of these hobbies helps me unwind and sparks my creativity in different ways.
       </p>
 
