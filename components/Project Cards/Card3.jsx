@@ -22,8 +22,8 @@ const Card3 = () => {
           The results show the model's accuracy and the effectiveness of the prediction based on the hand-drawn images. The model demonstrates a promising accuracy rate, indicating its potential utility in real-world applications for early Parkinson's detection.
         </p>
       </div>
-      <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
-        <button className="learn-more-button">Learn More</button>
+      <a href="https://github.com/Vibertexs/Tensorflow-Projects/blob/main/Parkinson_Prediction_Using_Hand_Drawing.ipynb" target="_blank" rel="noopener noreferrer">
+        <button className="learn-more-button popout">LEARN MORE</button>
       </a>
     </div>
   );

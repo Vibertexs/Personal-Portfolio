@@ -1,5 +1,5 @@
 .card1-container {
-    background-color: #000;
+    background-color: #080C0C;
     color: #FFF;
     padding: 2em;
     border-radius: 10px;
@@ -68,8 +68,9 @@
 
 .learn-more-button {
     background-color: #FFF;
-    color: #000;
+    color: #080C0C;
     font-family: var(--font-montserrat);
+    font-weight: bold;
     padding: 0.75em 1.5em;
     font-size: 1em;
     border: none;

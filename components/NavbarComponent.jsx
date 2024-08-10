@@ -14,7 +14,7 @@ const NavbarComponent = () => {
           <Nav.Link href="#experience" className="navbar-font">EXPERIENCE</Nav.Link>
           <Nav.Link href="#projects" className="navbar-font">PROJECTS</Nav.Link>
           <Nav.Link href="#resume" className="navbar-font">RESUME</Nav.Link>
-          <Nav.Link href="mailto:youremail@example.com" className="navbar-font connect-link">CONNECT</Nav.Link>
+          <Nav.Link href="mailto:youremail@example.com" className="navbar-font connect-link popout">CONNECT</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

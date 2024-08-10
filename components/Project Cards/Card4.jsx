@@ -76,7 +76,7 @@ const Card4 = () => {
       </p>
 
       <a href="https://github.com/Vibertexs/Tradingview-Scripts" target="_blank" rel="noopener noreferrer">
-        <button className="learn-more-button">GitHub Repository</button>
+        <button className="learn-more-button popout">LEARN MORE</button>
       </a>
     </div>
   );

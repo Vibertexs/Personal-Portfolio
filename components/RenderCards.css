@@ -62,7 +62,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: aqua;
+  background-color: #080C0C;
   overflow-y: auto; /* Enable vertical scrolling within this container */
   box-sizing: border-box;
 }

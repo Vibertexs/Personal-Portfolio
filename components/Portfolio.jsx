@@ -10,7 +10,7 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-container">
-      <h2 className='raleway bold-weight portfolio-title'>PORTFOLIO</h2>
+      <h2 className='raleway bold-weight portfolio-title'>RESUME</h2>
       {isClient ? (
         <>
           <div className="pdf-wrapper" id='resume'>

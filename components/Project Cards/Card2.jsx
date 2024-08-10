@@ -19,8 +19,8 @@ const Card2 = () => {
         This project was made for my Physics final, where I created a simulation environment. The entire project 
         was developed using Python, specifically with Pygame.
       </p>
-      <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
-        <button className="learn-more-button">Learn More</button>
+      <a href="https://docs.google.com/presentation/d/19iMbZE55JLqXD4HVWIFmwyaIBh5SYcyyP0TjGdhySwA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <button className="learn-more-button popout">LEARN MORE</button>
       </a>
     </div>
   );

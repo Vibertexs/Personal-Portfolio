@@ -10,7 +10,8 @@ const data = {
     "styling": {
         "height": "70vh",
         "borderThickness": "0.5em",
-        "borderColor": "#080C0C",
+        // "borderColor": "#080C0C",
+        "borderColor": "#EDF2F4",
         "childGap" : "0.0em",
     },
 

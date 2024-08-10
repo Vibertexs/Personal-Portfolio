@@ -5,10 +5,10 @@
   justify-content: center;
   padding: 1.25em;
   box-sizing: border-box;
-  background-color: #f4f4f4;
+  background-color: #EDF2F4;
   width: 100%;
   padding: 0 1em;
-  margin-bottom: 2em;
+  padding: 2em;
 }
 
 .pdf-wrapper {

@@ -10,7 +10,7 @@ const Projects = () => {
         <Cards data={Config} />
       </div>
       <a 
-        href="https://github.com/yourusername" 
+        href="https://github.com/Vibertexs" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="github-link raleway bottom-text"
