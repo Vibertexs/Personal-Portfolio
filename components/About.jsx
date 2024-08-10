@@ -13,15 +13,15 @@ const About = () => {
         <h3 className='tldr-title'>TL;DR?</h3>
         <div className='tldr-section'>
           <div className='tldr-item popout'>
-            <img src="/icons/stack.png" alt="Full Stack Developer" className="tldr-icon" />
+            <img src="./icons/stack.png" alt="Full Stack Developer" className="tldr-icon" />
             <div className='subtitle'>FULL STACK</div>
           </div>
           <div className='tldr-item popout'>
-            <img src="/icons/goal.png" alt="Goal: Create Impactful Programs" className="tldr-icon" />
+            <img src="./icons/goal.png" alt="Goal: Create Impactful Programs" className="tldr-icon" />
             <div className='subtitle'>CREATE IMPACT</div>
           </div>
           <div className='tldr-item popout'>
-            <img src="/icons/camera.png" alt="Photography" className="tldr-icon" />
+            <img src="./icons/camera.png" alt="Photography" className="tldr-icon" />
             <div className='subtitle'>PHOTOGRAPHY</div>
           </div>
         </div>

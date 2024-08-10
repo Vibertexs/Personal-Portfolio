@@ -51,7 +51,7 @@ const Card4 = () => {
       </p>
       <div className="card4-results-image-container">
         <img 
-          src="/images/scalpingbotresults.jpg" 
+          src="./images/scalpingbotresults.jpg" 
           alt="Scalping Bot Strategy Results"
           className="card4-results-image"
         />

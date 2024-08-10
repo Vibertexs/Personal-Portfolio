@@ -21,13 +21,13 @@ const Landing = () => {
               </div>
               <div className="icons d-flex">
                 <a href="https://github.com/Vibertexs" target="_blank" rel="noopener noreferrer">
-                  <img src="/icons/github.png" alt="GitHub" className="icon popout" />
+                  <img src="./icons/github.png" alt="GitHub" className="icon popout" />
                 </a>
                 <a href="https://www.linkedin.com/in/bilal-khan-bb8688221/" target="_blank" rel="noopener noreferrer">
-                  <img src="/icons/linkedin.png" alt="LinkedIn" className="icon popout" />
+                  <img src="./icons/linkedin.png" alt="LinkedIn" className="icon popout" />
                 </a>
                 <a href="mailto:bilalkhaninbox2004@gmail.com">
-                  <img src="/icons/email.png" alt="Email" className="icon popout" />
+                  <img src="./icons/email.png" alt="Email" className="icon popout" />
                 </a>
               </div>
             </div>

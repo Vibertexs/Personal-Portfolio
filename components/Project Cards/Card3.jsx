@@ -14,7 +14,7 @@ const Card3 = () => {
       <div className="card3-results">
         <h3 className="card3-title-left">Results:</h3>
         <img 
-          src="/images/results.png" 
+          src="./images/results.png" 
           alt="Parkinson's Prediction Results" 
           className="card3-results-image"
         />

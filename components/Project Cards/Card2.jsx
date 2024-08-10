@@ -11,7 +11,7 @@ const Card2 = () => {
         of a projectile. Users can adjust parameters to see how different variables change the path of the projectile.
       </p>
       <img 
-        src="/images/projectile.gif" 
+        src="./images/projectile.gif" 
         alt="Projectile Motion Simulation" 
         className="card2-image" 
       />

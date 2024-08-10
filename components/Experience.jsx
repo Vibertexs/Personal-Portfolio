@@ -17,12 +17,12 @@ const Experience = () => {
         </div>
         <div className="col-12 d-flex flex-row justify-content-around company-row">
           <a href="https://www.linkedin.com/company/neuroleap-corp/" target="_blank" rel="noopener noreferrer" className="work-item text-center popout">
-            <img src="/icons/neuroleap.png" alt="NeuroLeap" className="company-icon" />
+            <img src="./icons/neuroleap.png" alt="NeuroLeap" className="company-icon" />
             <h4 className="raleway">NEUROLEAP</h4>
             <p className="montserrat">2022 - 2023</p>
           </a>
           <a href="https://bayvalleytech.com" target="_blank" rel="noopener noreferrer" className="work-item text-center popout">
-            <img src="/icons/BVT.png" alt="Bay Valley Tech" className="company-icon" />
+            <img src="./icons/BVT.png" alt="Bay Valley Tech" className="company-icon" />
             <h4 className="raleway">BAY VALLEY TECH</h4>
             <p className="montserrat">2023 - 2024</p>
           </a>
@@ -44,21 +44,21 @@ const Experience = () => {
           </div>
           <div className="row w-100 row1">
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/html5.png" alt="HTML5" className="skill-icon" />
+              <img src="./icons/html5.png" alt="HTML5" className="skill-icon" />
               <p className="montserrat">HTML5</p>
             </div>
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/css3.png" alt="CSS3" className="skill-icon" />
+              <img src="./icons/css3.png" alt="CSS3" className="skill-icon" />
               <p className="montserrat">CSS3</p>
             </div>
           </div>
           <div className="row w-100 row2">
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/javascript.png" alt="JavaScript" className="skill-icon" />
+              <img src="./icons/javascript.png" alt="JavaScript" className="skill-icon" />
               <p className="montserrat">JAVASCRIPT</p>
             </div>
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/react.png" alt="React" className="skill-icon" />
+              <img src="./icons/react.png" alt="React" className="skill-icon" />
               <p className="montserrat">REACT</p>
             </div>
           </div>
@@ -71,21 +71,21 @@ const Experience = () => {
           </div>
           <div className="row w-100">
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/c++.png" alt="C++" className="skill-icon" />
+              <img src="./icons/c++.png" alt="C++" className="skill-icon" />
               <p className="montserrat">C++</p>
             </div>
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/python.png" alt="Python" className="skill-icon" />
+              <img src="./icons/python.png" alt="Python" className="skill-icon" />
               <p className="montserrat">PYTHON</p>
             </div>
           </div>
           <div className="row w-100">
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/tensorflow.png" alt="Tensorflow" className="skill-icon" />
+              <img src="./icons/tensorflow.png" alt="Tensorflow" className="skill-icon" />
               <p className="montserrat">TENSORFLOW</p>
             </div>
             <div className="col-6 text-center skill-item popout">
-              <img src="/icons/pinescript.png" alt="Pinescript" className="skill-icon" />
+              <img src="./icons/pinescript.png" alt="Pinescript" className="skill-icon" />
               <p className="montserrat">PINESCRIPT</p>
             </div>
           </div>
