@@ -5,49 +5,6 @@ const Dummy = () => {
   return (
     <div className='this'>
       <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
-      <h2 >Test</h2>
     </div>
   );
 };
