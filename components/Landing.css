@@ -45,7 +45,7 @@ body, html {
   flex: 1; /* Occupy less space */
   background-color: #D9D9D9;
   padding: 0 2em; /* Added padding to avoid overflow */
-  background-image: url('/images/headshot.jpg');
+  background-image: url('../assets/images/headshot.jpg');
   background-size: cover;
   background-position: center;
 }
