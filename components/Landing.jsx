@@ -9,14 +9,14 @@ const Landing = () => {
       <div className="container-fluid p-0">
         <div className="row no-gutters container-height">
           <div className="col-md-8 d-flex justify-content-start align-items-center left">
-            <div className='text'>
+            <div className="text">
               <div className="top-text">
                 <h2 className="light-weight">HELLO, I AM</h2>
               </div>
-              <div className='middle-text'>
+              <div className="middle-text">
                 <h1 className="bold-weight">BILAL KHAN</h1>
               </div>
-              <div className='bottom-text'>
+              <div className="bottom-text">
                 <h3 className="light-weight">FULLSTACK DEVELOPER</h3>
               </div>
               <div className="icons d-flex">
@@ -32,8 +32,9 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 d-flex justify-content-center align-items-center right">
-            <p className="regular-weight">Insert Image Here</p>
+          {/* The right column will be hidden on screens smaller than md (768px) */}
+          <div className="col-md-4 d-none d-md-flex justify-content-center align-items-center right">
+            {/* The image will now be the background of this div */}
           </div>
         </div>
       </div>
